@@ -1,0 +1,38 @@
+/* * {
+  font-size: 25px;
+  color: red;
+} */
+
+section {
+  color: red;
+  border: 1px solid blue;
+}
+
+h2 {
+  color: green;
+}
+
+.subtitle {
+  color: pink;
+}
+
+#myid {
+  color: blue;
+}
+
+#nav a {
+  color: red;
+  font-size: 50px;
+}
+/* soy un comment */
+
+a {
+  color: green;
+}
+
+#nav a {
+  color: green;
+}
+
+
+
