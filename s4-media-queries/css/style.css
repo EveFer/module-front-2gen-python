@@ -1,0 +1,127 @@
+
+/* Mobile First */
+
+/* .shapes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+} */
+
+/* Agrupación de Selectores */
+/* .square, .circle {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.circle {
+  border-radius: 50%;
+} */
+
+/* @media screen and (min-width: 768px) {
+  .shapes {
+    justify-content: flex-start;
+  }
+  .square {
+    background-color: pink;
+    width: 250px;
+    height: 250px;
+    margin: 20px 20px;
+  }
+  .red {
+    background-color: red;
+  }
+  .shapes:nth-last-of-type(){
+    align-self: flex-end;
+  }
+} */
+
+/* @media screen and (min-width: 1024px) {
+  .shapes {
+    width: 100%;
+  }
+  .square {
+    border-radius: 50%;
+    background-color: blue;
+  }
+} */
+
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid blue;
+}
+
+/* selector combinado */
+.square.active {
+  background-color: red;
+}
+.square.blue {
+  background-color: blue;
+}
+
+.card h2.title {
+  color: green;
+}
+
+/* Selector de hijo
+
+seleccionar los hijos directos del primer selector
+
+*/
+.card > h2.title {
+  background-color: gray;
+}
+
+/* Selector subsecuente
+
+seleccionar el primer hermano inmediato al primer selector
+
+*/
+
+.card + section.our-products {
+  background-color: pink;
+}
+
+/* selector hermano
+
+*/
+
+.card ~ section.our-products {
+   background-color: red;
+}
+
+/* Pseudoclases
+
+
+elemento:hover
+elemento:link
+elemento:visited
+elemento:checked
+elemento:nth-of-type()
+elemento:nth-child()
+
+
+*/
+
+article.card + section.our-products:hover {
+  font-size: 30px;
+}
+
+.card h2.title:nth-of-type(2) {
+  font-size: 25px;
+  background-color: blue;
+  color: white;
+}
+
+.shapes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shapes .square:nth-of-type(2n+4):hover {
+  background-color: pink;
+}
