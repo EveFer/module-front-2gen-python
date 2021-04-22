@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: green;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  background-color: red;
+  border: 1px solid black;
+}
+
+.main-header .header-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-header .header-center a {
+  border: 1px solid blue;
+  padding: 5px 10px;
+  background-color: gray;
+  color: white;
+  margin: 0 auto;
+  font-family: "Relaway";
+}
+
+.main-header .header-center.center {
+  margin: 0 auto;
+}
+
+.main-header .header-center img {
+  width: 100%;
+}
+
+.main-header .header-center img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.main-header .header-center p {
+  text-align: center;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .container-social-icons {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    .container-social-icons {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,8 @@
+@mixin styleButton($color-border:blue, $bg-color:gray, $font-color: white) {
+    border: 1px solid $color-border;
+    padding: 5px 10px;
+    background-color: $bg-color;
+    color: $font-color;
+    margin: 0 auto;
+    font-family: $font-body;
+}
