@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* 320px - 767px */
+
 ul li {
   list-style: none;
 }
@@ -185,8 +187,78 @@ nav.menu ul li a:hover {
   }
 }
 
+/* 768px - 1023px */
 @media only screen and (min-width: 768px) {
   .circle {
     border-radius: unset;
+  }
+}
+
+/* 1024px  - */
+@media only screen and (min-width: 1024px) {
+  .circle {
+    border-radius: unset;
+  }
+}
+
+
+/*  */
+
+.contact, .footer {
+  height: 50vh;
+}
+.contact {
+  background-color: cyan;
+  position: relative;
+}
+.footer {
+  background-color: peru;
+}
+
+.form {
+  width: 400px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  box-shadow: 4px 2px 3px 4px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+}
+
+
+.spinner {
+  width: 36px;
+  height: 36px;
+  border: 4px solid #ccc;
+  margin: 0 auto;
+  border-radius: 50%;
+  border-left-color: blue;
+  animation-name: spin;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(360deg)
   }
 }
