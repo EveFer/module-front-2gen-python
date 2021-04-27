@@ -74,5 +74,8 @@ a {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .container-social-icons {
+    display: block;
+  }
 }
 /*# sourceMappingURL=style.css.map */
