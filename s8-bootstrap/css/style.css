@@ -1,0 +1,17 @@
+p {
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 18px;
+  }
+}
+
+.btn-primary {
+  color: #495057;
+  background-color: #fbfdff;
+  border-color: #007bff;
+  border-radius: 50px;
+}
+/*# sourceMappingURL=style.css.map */

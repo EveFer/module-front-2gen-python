@@ -1,0 +1,17 @@
+$parrafo-mobile: 15px;
+$parrafo-desktop: 18px;
+
+
+
+p {
+    font-size: $parrafo-mobile;
+}
+
+
+@media only screen and (min-width: 768px) {
+    p {
+        font-size: $parrafo-desktop;
+    }
+}
+
+@import 'components';
